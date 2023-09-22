@@ -11,4 +11,14 @@ router.post("/user/register", controllers.userPost);
 //router to fetch saved users from database
 router.get("/user/getAllUser", controllers.getUsers);
 
+//get single user
+router.get("/user/getSingleUser/:id", controllers.getSingleUser);
+
+//delete user 
+
+router.delete("/user/deleteSingleUser/:id", controllers.deleteSingleUser);
+
+//update user
+router.put("/user/updateUser/:id", controllers.updateOne);
+
 module.exports = router;

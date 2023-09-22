@@ -1,0 +1,37 @@
+[
+    {
+        "FirstName" : "Pritam",
+        "LastName": "Raha",
+        "Price": 100,
+        "Featured": true,
+        "Rating": 0,
+        "Company":"SAMSUNG"
+    },
+
+    {
+        "FirstName" : "Pritam2",
+        "LastName": "Raha2",
+        "Price": 1002,
+        "Featured": true,
+        "Rating": 2,
+        "Company":"APPLE"
+    },
+
+    {
+        "FirstName" : "Pritam3",
+        "LastName": "Raha3",
+        "Price": 1003,
+        "Featured": true,
+        "Rating": 3,
+        "Company":"NOTHING"
+    },
+
+    {
+        "FirstName" : "Pritam4",
+        "LastName": "Raha4",
+        "Price": 1004,
+        "Featured": true,
+        "Rating": 4,
+        "Company":"MOTOROLA"
+    }
+]

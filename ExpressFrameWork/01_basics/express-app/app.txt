@@ -1,0 +1,9 @@
+cd express-app
+
+npm i --save-dev nodemon
+
+npm i express mongoose mongodb nodemon -D cors dotenv moment
+
+
+what is middleware?
+ans: middleware is a function that have access to the request object(req), the response object(res), and the next middleware function in the application's request-response cycle.
