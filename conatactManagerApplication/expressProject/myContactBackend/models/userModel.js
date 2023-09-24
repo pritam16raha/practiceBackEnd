@@ -11,10 +11,10 @@ const mongoose = require("mongoose");
     },
     password: {
         type: String,
-        require: true
+        require: [true, "Please create a password"]
     }
  }, {
     timestamps: true
  });
 
- module.exports = mongoose.userSchema("User", userSchema);
+ module.exports = mongoose.model("User", userSchema);
