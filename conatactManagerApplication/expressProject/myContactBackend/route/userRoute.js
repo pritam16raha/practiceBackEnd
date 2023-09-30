@@ -12,4 +12,4 @@ router.post("/login", loginUser );
 
 router.get("/current", validateToken, currentInformation );
 
-module.exports = router;
+module.exports = router; 
